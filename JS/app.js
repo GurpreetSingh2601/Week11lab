@@ -9,4 +9,10 @@ for (i = 0; i < todolist.length; i++) {
 
     }
 }
+
 console.log(completedtodos)
+//for loop to loop over completedtodos array
+for (j = 0; j < completedtodos.length; j++) {
+    const [{ todo }] = completedtodos
+    console.log(todo)
+}
